@@ -9,6 +9,7 @@
   <body>
     <div id="a1">Hello</div>
     <div id="a2">JavaScript</div>
+    <div id="root">OKLABS</div>
     <script>
       document.getElementById("a1").innerHTML =
         "Welcome to JavaScript Training";
@@ -19,8 +20,18 @@
 
       var a = 10;
       var b = 20;
-      var z = a + b;
-      console.log(z + 70);
+      var y = a + b;
+      console.log(y + 70);
+
+      document.getElementById("root").innerHTML = "Good Morning";
+      //variable Decleration
+      let z;
+      z = y + b;
+      console.log(z);
+
+      const c = 50;
+
+      console.log(c + z);
     </script>
   </body>
 </html>
