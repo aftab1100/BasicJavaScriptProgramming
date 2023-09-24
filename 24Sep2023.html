@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naming Convention Case</title>
+    <style></style>
+    <script></script>
+  </head>
+  <body>
+    <script>
+      //Naming Convention Case;
+      //CamleCase for Variable and Function/Method
+      var anilDollar;
+      var kiranRathore;
+      anilDollar = 10;
+      kiranRathore = 20;
+      console.log(anilDollar + kiranRathore);
+
+      //1.function Definition
+      function myFunctionA(naam) {
+        //Function Body
+        //name is a formal Argument/Parameter
+        console.log("hello" + naam); //'hello'+'Anil'
+        myFunctionB("hello" + name);
+      }
+      //2.Function Calling
+      myFunctionA("Anil"); //Actual Argumnent/Parameter
+
+      //1.Funtion Defination
+      function myFunctionB(msg) {
+        console.log("How are you ?" + msg);
+        myFunctionCalc(100, 150);
+      }
+      //2.Function Calling
+      myFunctionB("akil");
+      myFunctionA("akil");
+
+      //1.Function Defintaion
+      function myFunctionCalc(x, y) {
+        //function body
+        console.log(x + y);
+      }
+      //fixed value but not changing
+      const A = 10;
+      var b = 200;
+      A = 230;
+      console.log(a + b);
+    </script>
+  </body>
+</html>
